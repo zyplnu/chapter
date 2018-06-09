@@ -20,6 +20,7 @@ public class I18N {
         /*System.out.println("us:" + rb1.getString("greeting.common"));*/
 
         System.out.println("cn:" + rb2.getString("greeting.common"));
+        System.out.println();
     }
 
 }
