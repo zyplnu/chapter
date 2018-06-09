@@ -1,5 +1,7 @@
 package com.smart.utils;
 
+import org.springframework.context.HierarchicalMessageSource;
+
 import java.text.DateFormat;
 import java.text.MessageFormat;
 import java.text.NumberFormat;
@@ -20,7 +22,7 @@ public class I18N {
         /*System.out.println("us:" + rb1.getString("greeting.common"));*/
 
         System.out.println("cn:" + rb2.getString("greeting.common"));
-        System.out.println();
+
     }
 
 }
